@@ -1,0 +1,24 @@
+.--c-light {
+  color: #ffffff;
+}
+
+.--bg-light {
+  background: #ffffff;
+}
+
+.--c-dark {
+  color: #000000;
+}
+
+.--bg-dark {
+  background: #000000;
+}
+
+.top-bar {
+  background: #000000;
+}
+
+.top-bar__search input {
+  height: 56px;
+}
+/*# sourceMappingURL=style.css.map */
