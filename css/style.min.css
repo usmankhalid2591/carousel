@@ -1,1 +1,1 @@
-.--c-light{color:#fff}.--bg-light{background:#fff}.--c-dark{color:#000}.--bg-dark{background:#000}.--c-danger{color:#d4155b}.--bg-danger{background:#d4155b}.top-bar{background:#000}.top-bar__search input{height:56px}.images-grid__image{max-width:20%;margin:0px 10px}
+.--c-light{color:#fff}.--bg-light{background:#fff}.--c-dark{color:#000}.--bg-dark{background:#000}.--c-danger{color:#d4155b}.--bg-danger{background:#d4155b}.top-bar{background:#000}.top-bar__search input{height:56px}.images-grid__image{position:relative}.images-grid__image .overlay{background:#00000060}
