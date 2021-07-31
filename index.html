@@ -25,8 +25,10 @@
 
     <header class="top-bar --padding-40-vertical">
         <div class="container">
-            <div class="top-bar__inner --d-flex --justify-content-between">
-                <div class="top-bar__left">
+            <div
+                class="top-bar__inner --d-flex --justify-content-between --flex-wrap-medium --justify-content-center-medium">
+                <div
+                    class="top-bar__left --margin-right-10 --margin-0-horizontal-extra-small --margin-10-vertical-extra-small">
                     <ul class="--d-flex --padding-0 --margin-0 --list-unstyled">
                         <li>
                             <a href="javascript:void(0);">
@@ -60,7 +62,8 @@
                         </li>
                     </ul>
                 </div>
-                <div class="top-bar__right">
+                <div
+                    class="top-bar__right --margin-left-10 --margin-0-horizontal-extra-small --margin-10-vertical-extra-small">
                     <ul class="--d-flex --padding-0 --margin-0 --list-unstyled">
                         <li>
                             <a href="javascript:void(0);" class="--c-light --text-decoration-none">
@@ -96,7 +99,7 @@
                     <img src="img/logo.png" alt="">
                 </div>
             </div>
-            <div class="top-bar__search --margin-35-vertical --d-flex --justify-content-center">
+            <div class="top-bar__search --margin-25-vertical --d-flex --justify-content-center">
                 <div class="--position-relative --w-75">
                     <input class="form-control" id="" type="text" placeholder="What can we help you find?">
                     <a href="javascript:void(0);" class="--position-absolute"
@@ -104,48 +107,65 @@
                         <img src="img/magnifier.png" alt="">
                     </a>
                 </div>
-
             </div>
-            <div class="top-bar__navigation">
-                <ul class="--d-flex --justify-content-center --padding-0 --margin-0 --list-unstyled">
-                    <li>
-                        <a href="javascript:void(0);"
-                            class="--text-uppercase --margin-15-horizontal --text-decoration-none --c-light">
-                            WELLNESS
-                        </a>
-                    </li>
-                    <li>
-                        <a href="javascript:void(0);"
-                            class="--text-uppercase --margin-15-horizontal --text-decoration-none --c-light">
-                            Beauty
-                        </a>
-                    </li>
-                    <li>
-                        <a href="javascript:void(0);"
-                            class="--text-uppercase --margin-15-horizontal --text-decoration-none --c-light">
-                            Food
-                        </a>
-                    </li>
-                    <li>
-                        <a href="javascript:void(0);"
-                            class="--text-uppercase --margin-15-horizontal --text-decoration-none --c-light">
-                            Living
-                        </a>
-                    </li>
-                    <li>
-                        <a href="javascript:void(0);"
-                            class="--text-uppercase --margin-15-horizontal --text-decoration-none --c-light">
-                            Travel
-                        </a>
-                    </li>
-                    <li>
-                        <a href="javascript:void(0);"
-                            class="--text-uppercase --margin-15-horizontal --text-decoration-none --c-light">
-                            More
-                        </a>
-                    </li>
-                </ul>
-            </div>
+            <nav class="navbar navbar-expand-lg navbar-dark --bg-dark">
+                <div class="container-fluid">
+                    <button class="navbar-toggler --margin-left-auto-medium" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav m-auto">
+                            <li class="nav-item">
+                                <a href="javascript:void(0);"
+                                    class="nav-link --text-center-medium  --text-uppercase --margin-15-horizontal --text-decoration-none --c-light">
+                                    WELLNESS
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="javascript:void(0);"
+                                    class="nav-link --text-center-medium  --text-uppercase --margin-15-horizontal --text-decoration-none --c-light">
+                                    Beauty
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="javascript:void(0);"
+                                    class="nav-link --text-center-medium  --text-uppercase --margin-15-horizontal --text-decoration-none --c-light">
+                                    Food
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="javascript:void(0);"
+                                    class="nav-link --text-center-medium  --text-uppercase --margin-15-horizontal --text-decoration-none --c-light">
+                                    Living
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="javascript:void(0);"
+                                    class="nav-link --text-center-medium  --text-uppercase --margin-15-horizontal --text-decoration-none --c-light">
+                                    Travel
+                                </a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link --text-center-medium  dropdown-toggle --text-uppercase --margin-15-horizontal --text-decoration-none --c-light"
+                                    href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    More
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
         </div>
     </header>
 
@@ -153,7 +173,7 @@
         <div class="--w-100">
             <img src="img/cover.png" class="--w-100" alt="">
         </div>
-        <div class="--w-75 --bg-light --d-flex --justify-content-center --align-items-center --flex-column --position-relative --padding-50-horizontal --padding-30-vertical --fw-700 --fs-30 --lh-40 --text-center"
+        <div class="--w-75 --bg-light --d-flex --justify-content-center --align-items-center --flex-column --position-relative --padding-50-horizontal --padding-30-vertical --fw-700 --fs-30 --fs-24-small --lh-40 --lh-25-small --text-center"
             style="transform: translateY(10%); position: absolute; bottom: 0px;">
             <ul class="--list-unstyled --padding-0 --margin-0 --d-flex --position-absolute"
                 style="transform: translateY(-75px);">
@@ -170,7 +190,7 @@
             <div class="row">
                 <div class="col-12 col-md-6">
                     <div class="--w-100">
-                        <img src="./img/blog-image.png" class="--w-100" alt="">
+                        <img src="./img/cover.png" class="--w-100" alt="">
                     </div>
                     <div
                         class="--margin-20-vertical --bg-dark --padding-20-horizontal --padding-3-vertical --w-min --c-light">
@@ -183,7 +203,7 @@
                 </div>
                 <div class="col-12 col-md-6">
                     <div class="--w-100">
-                        <img src="./img/blog-image.png" class="--w-100" alt="">
+                        <img src="./img/cover.png" class="--w-100" alt="">
                     </div>
                     <div
                         class="--margin-20-vertical --bg-dark --padding-20-horizontal --padding-3-vertical --w-min --c-light">
@@ -200,9 +220,9 @@
     <section class="--margin-top-50">
         <div class="container">
             <div class="row">
-                <div class="col-12 col-md-4">
+                <div class="col-12 col-md-4 --margin-top-15-medium">
                     <div class="--w-100">
-                        <img src="./img/blog-image.png" class="--w-100" alt="">
+                        <img src="./img/cover.png" class="--w-100" alt="">
                     </div>
                     <div
                         class="--margin-20-vertical --bg-dark --padding-20-horizontal --padding-3-vertical --w-min --c-light">
@@ -213,9 +233,9 @@
                     </div>
                     <div class="--fs-18 --lh-25 --fw-400">Emma Crameri on July 13, 2021</div>
                 </div>
-                <div class="col-12 col-md-4">
+                <div class="col-12 col-md-4 --margin-top-15-medium">
                     <div class="--w-100">
-                        <img src="./img/blog-image.png" class="--w-100" alt="">
+                        <img src="./img/cover.png" class="--w-100" alt="">
                     </div>
                     <div
                         class="--margin-20-vertical --bg-dark --padding-20-horizontal --padding-3-vertical --w-min --c-light">
@@ -226,9 +246,9 @@
                     </div>
                     <div class="--fs-18 --lh-25 --fw-400">Emma Crameri on July 13, 2021</div>
                 </div>
-                <div class="col-12 col-md-4">
+                <div class="col-12 col-md-4 --margin-top-15-medium">
                     <div class="--w-100">
-                        <img src="./img/blog-image.png" class="--w-100" alt="">
+                        <img src="./img/cover.png" class="--w-100" alt="">
                     </div>
                     <div
                         class="--margin-20-vertical --bg-dark --padding-20-horizontal --padding-3-vertical --w-min --c-light">
@@ -254,7 +274,7 @@
     <section class="images-grid">
         <div class="container">
             <div class="row">
-                <div class="col">
+                <div class="col-12 col-md-6 col-lg-1">
                     <div class="images-grid__image">
                         <img src="img/girl.png" class="--w-100" alt="">
                         <div
@@ -262,7 +282,7 @@
                             WELLNESS</div>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col-12 col-md-6 col-lg-1">
                     <div class="images-grid__image">
                         <img src="img/girl.png" class="--w-100" alt="">
                         <div
@@ -270,7 +290,7 @@
                             BEAUTY</div>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col-12 col-md-6 col-lg-1">
                     <div class="images-grid__image">
                         <img src="img/girl.png" class="--w-100" alt="">
                         <div
@@ -278,7 +298,7 @@
                             FOOD</div>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col-12 col-md-6 col-lg-1">
                     <div class="images-grid__image">
                         <img src="img/girl.png" class="--w-100" alt="">
                         <div
@@ -286,7 +306,7 @@
                             LIVING</div>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col-12 col-md-6 col-lg-1">
                     <div class="images-grid__image">
                         <img src="img/girl.png" class="--w-100" alt="">
                         <div
